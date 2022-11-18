@@ -7,7 +7,7 @@ Feature: Utest
     Given that Diana wants to register as a tester in Utest
     When she enters the required data for register
    | strFirstName | strLastName | strEmail         | strCity| strZip | strCountry | strOS | strOsVersion | strOsLang | strMobile | strMobileVersion | strMobileOs | strPassword |
-   | Alejandra|Rios|AlitaRios@gmail.com|Villavicencio|500001|Colombia|Windows|11| Spanish|Samsung|Galaxy A|Android 7.1.1|TH15is4P455W0RD|
+   | Laura|Jimenez|LjimenezC@gmail.com|Villavicencio|500001|Colombia|Windows|11| Spanish|Samsung|Galaxy A|Android 7.1.1|TH15is4P455W0RD|
    Then she finally is registered in Utest platform when sees in page
     | strSuccessSignUp |
     |First, please check your email inbox|
